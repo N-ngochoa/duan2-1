@@ -1,0 +1,24 @@
+{% extends "todolist/base.html" %}
+{% block content %}
+    <h3><a href="/create">Tạo to do mới</a></h3>
+    <ul>
+    {% if todolistpublic %}
+
+    {% endif %}
+    <h1>Tất cả to do list</h1>
+            {% for todo in todolistuser %}
+                <form action="/update/{{ todo.id }}" method="post">
+                {% csrf_token %}
+                    <li><input value="{{ todo.name }}" name="todo_name"/>False<input type="radio" name="todo_ispublic" value="False" title="False"{% if todo.is_public == False %}checked{% endif %} id="public"/>True<input title="True" {% if todo.is_public == True %}checked{% endif %} type="radio" name="todo_ispublic" value="True" id="public"/><input type="submit" value="Cập nhật"> <a href="/{{ todo.id }}">Chi tiết </a><a href="/delete/{{ todo.id }}"><span style="color:red">Delete</span></a></li>
+                </form>
+            {% endfor %}
+    <h1>Tất cả to do list dc public</h1>
+        {% for todo in todolistpublic %}
+            <li><a href="/{{ todo.id }}">{{ todo.name }}</a></li>
+        {% endfor %}
+    <h1>Tất cả to do list dc share</h1>
+        {% for todo in todolistshared %}
+		    <li><a href="/{{ todo.id }}">{{ todo.name }}</a></li>
+        {% endfor %}
+    </ul>
+{% endblock content %}

@@ -1,0 +1,13 @@
+{% extends "polls/base.html" %}
+{% block content %}
+    <h1>Đây là template</h1>
+    <h1>GGWP {{name}}</h1>
+    <h2>items</h2>
+    <ul>
+        {% for item in taisan %}
+            {% if item != 'máy tính'%}
+                <li>{{item}}</li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+{% endblock content %}

@@ -1,0 +1,11 @@
+{% extends "todolist/base.html" %}
+{% block content %}
+    <h3><a href="/index">Trang chủ</a></h3>
+    <h3><a href="/createitem/{{ todolist.pk }}">Tạo item mới</a></h3>
+{% for item in todolist.todoitem.all %}
+    <form action="{{ todolist.pk }}/updateitem/{{ item.id }}" method="post">
+        {% csrf_token %}
+            <li><input type="text" name="item_name" value="{{ item.name }}"/><input type="submit" value="Cập nhật"/><a href="{{ todolist.pk }}/deleteitem/{{ item.id }}"><span style="color:red">Delete</span></a></li>
+    </form>
+{% endfor %}
+{% endblock content %}
