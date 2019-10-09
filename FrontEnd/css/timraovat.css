@@ -1,6 +1,6 @@
 .panel.panel-default {
   margin-left: 200px;
-  height: 1200px;
+  height: auto;
 }
 .col-xs-12 {
   position: relative;
@@ -232,4 +232,194 @@
   font-size: 15px;
   font-weight: bold;
   margin-top: 10px;
+}
+._2VtCeQFva4vDdq1vxSystR {
+  margin-top: 10px;
+  height: 42px;
+  border: 1px solid #cacaca;
+  background-color: white;
+}
+._2VtCeQFva4vDdq1vxSystR .JLDv2VhpsbIe3Woa8Sz-4 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  line-height: 40px;
+}
+  ._2VtCeQFva4vDdq1vxSystR .JLDv2VhpsbIe3Woa8Sz-4 ._1KyWU4B3TxOhyU1dypwjAi {
+    border-bottom: 2px solid #FFD100;
+    color: black;
+  }
+._2VtCeQFva4vDdq1vxSystR .JLDv2VhpsbIe3Woa8Sz-4 ._3agAuhZeViymWQeAM8KHUH {
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: Verdana;
+  font-size: 1em;
+  color: darkgrey;
+  cursor: pointer;
+}
+
+.ctStickyAdsListing {
+  list-style: none;
+  background-color: white;
+}
+.ctStickyAdsListing .ctAdListingWrapper.listView {
+  border-bottom: 1px solid #e9ebee;
+}
+
+@media only screen and (min-width: 768px){
+.ctStickyAdsListing .ctAdListingWrapper.listView .ctAdListingItem {
+    height: 120px;
+}
+.ctStickyAdsListing .ctAdListingWrapper.listView .ctAdListingItem {
+    background: #FFFFFF;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 10px 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}}
+
+@media only screen and (min-width: 768px){
+.ctStickyAdsListing .ctAdListingWrapper.listView .ctAdListingItem .ctAdLitingThumbnail {
+    width: 133px;
+    height: 100px;
+}
+.ctStickyAdsListing .ctAdListingWrapper.listView .ctAdListingItem .ctAdLitingThumbnail {
+    max-width: 200px;
+    overflow: hidden;
+}}
+
+.ctStickyAdsListing .ctAdListingWrapper .ctAdListingItem .ctAdLitingThumbnail .thumbnailImageListing {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.ctStickyAdsListing .ctAdListingWrapper.listView .ctAdListingItem .ctAdListingBody {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
+  flex: 1 1;
+  padding: 5px 5px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 768px){
+.ctStickyAdsListing .ctAdListingWrapper.listView .ctAdListingItem .ctAdListingBody .ctAdListingTitle {
+  font-size: 14px;
+  line-height: 15px;
+  max-height: 35px;
+}
+}
+.ctStickyAdsListing .ctAdListingWrapper.listView .ctAdListingItem .ctAdListingBody .ctAdListingTitle {
+  font-family: Verdana,Arial,sans-serif;
+  max-width: -webkit-calc(100% - 15px);
+  max-width: calc(100% - 15px);
+  min-height: 30px;
+  margin-bottom: 5px;
+}
+.ctStickyAdsListing .ctAdListingWrapper .ctAdListingItem .ctAdListingBody .ctAdListingTitle {
+  color: #000;
+  margin: 0;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.ctStickyAdsListing .ctAdListingWrapper .ctAdListingLowerBody .adItemType .text {
+  position: relative;
+  opacity: 0.5;
+  height: 17px;
+  line-height: 17px;
+  max-width: 120px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  top: 3px;
+}
+.ctStickyAdsListing .ctAdListingWrapper .ctAdListingLowerBody .clickable .link {
+  color: #fe9900;
+  opacity: 1 !important;
+}
+.ctStickyAdsListing .ctAdListingWrapper .ctAdListingLowerBody .adItemType span {
+  display: inline-block;
+}
+.ctStickyAdsListing .ctAdListingWrapper .delimeter {
+  border-left: 1px solid rgba(0,0,0,0.2);
+  margin-left: 5px;
+  padding-right: 7px;
+}
+.ctStickyAdsListing .ctAdListingWrapper .ctAdListingLowerBody .adItemPostedTime {
+  line-height: 16px;
+  color: #000;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 200;
+  position: relative;
+}
+.ctStickyAdsListing .ctAdListingWrapper.listView .ctAdListingLowerBody .areaName {
+  color: #000;
+  font-size: 12px;
+  display: inline-block;
+  opacity: 0.5;
+}
+.ctStickyAdsListing .ctAdListingWrapper .ctAdListingLowerBody .adItemType .text {
+  position: relative;
+  opacity: 0.5;
+  height: 17px;
+  line-height: 17px;
+  max-width: 120px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  top: 3px;
+}
+.dcwIrQ {
+  background: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+.saveAd {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+*, :after, :before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.ctStickyAdsListing .ctAdListingWrapper .ctAdListingLowerBody .clickable .link {
+  color: #fe9900;
+  opacity: 1 !important;
+}
+.ctStickyAdsListing .ctAdListingWrapper .ctAdListingLowerBody .adItemType span {
+  display: inline-block;
+}
+.cMFlmw {
+  display: inline-block;
+  margin: 0;
+  background-color: transparent;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 0;
+  max-width: 100%;
+  max-width: calc(100% - 35px);
 }
