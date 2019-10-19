@@ -157,10 +157,11 @@ button, input, select, textarea {
 input {
   line-height: normal;
 }
-@media (min-width: 768px){
+
 ._1A31TKpr3aul3X8swjEql4 input[type=radio].css-checkbox+label.css-label {
     background-position: 30% 0;
-}}
+}
+
 ._1A31TKpr3aul3X8swjEql4 input[type=radio].css-checkbox+label.css-label {
     width: 100%;
     padding-left: 190px;
@@ -200,7 +201,7 @@ label {
 ._25xwuKQZwq0_h6E5t78mIg.undefined {
   margin-right: -5px !important;
 }
-@media (min-width: 768px)
+
 ._3wLdyQ1JXeAenU3yteGpQI>button {
     width: 120px;
     height: 120px;
@@ -213,7 +214,7 @@ label {
 .btn-brand {
     color: #fe9900;
     background-color: #fff;
-    border-color: #fe9900;
+    border-color: #fe9900 !important;
 }
 .btn {
     display: inline-block;
@@ -224,7 +225,7 @@ label {
     touch-action: manipulation;
     cursor: pointer;
     background-image: none;
-    border: 1px 1px solid transparent;
+    border: 1px 1px 1px solid transparent;
     white-space: nowrap;
     padding: 6px 12px;
     font-size: 14px;
@@ -234,4 +235,29 @@ label {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+.form-control{
+  width: 99.5% !important;
+}
+.panel-images{
+  width: 80px;
+  /* background-color: #fff; */
+  height: auto;
+}
+textarea.form-control {
+  height: auto;
+  width: 440px !important;
+}
+.category{
+  margin-top:20px;
+  width:450px;
+  height: auto;
+  /* background-color: rgb(180, 62, 62); */
+  float: right;
+}
+/* .panel-footer{
+  border-top: 0px solid #fff;
+} */
+strong {
+  margin-right: 300px;
 }

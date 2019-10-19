@@ -1,3 +1,4 @@
+
 .panel.panel-default {
   margin-left: 200px;
   height: auto;
@@ -66,7 +67,7 @@
   display: block;
   box-sizing: content-box;
   background: none;
-  vertical-align: middle;
+  /* vertical-align: middle; */
   outline: none;
 }
 .hrSofa {
@@ -267,7 +268,7 @@
   border-bottom: 1px solid #e9ebee;
 }
 
-@media only screen and (min-width: 768px){
+
 .ctStickyAdsListing .ctAdListingWrapper.listView .ctAdListingItem {
     height: 120px;
 }
@@ -280,9 +281,8 @@
     padding: 10px 0;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-}}
+}
 
-@media only screen and (min-width: 768px){
 .ctStickyAdsListing .ctAdListingWrapper.listView .ctAdListingItem .ctAdLitingThumbnail {
     width: 133px;
     height: 100px;
@@ -290,7 +290,7 @@
 .ctStickyAdsListing .ctAdListingWrapper.listView .ctAdListingItem .ctAdLitingThumbnail {
     max-width: 200px;
     overflow: hidden;
-}}
+}
 
 .ctStickyAdsListing .ctAdListingWrapper .ctAdListingItem .ctAdLitingThumbnail .thumbnailImageListing {
   object-fit: cover;
@@ -319,13 +319,12 @@
   flex-direction: column;
 }
 
-@media only screen and (min-width: 768px){
 .ctStickyAdsListing .ctAdListingWrapper.listView .ctAdListingItem .ctAdListingBody .ctAdListingTitle {
   font-size: 14px;
   line-height: 15px;
   max-height: 35px;
 }
-}
+
 .ctStickyAdsListing .ctAdListingWrapper.listView .ctAdListingItem .ctAdListingBody .ctAdListingTitle {
   font-family: Verdana,Arial,sans-serif;
   max-width: -webkit-calc(100% - 15px);

@@ -1,9 +1,19 @@
-.panel.panel-dangki {
-  width      : 450px !important;
-  
-  height     : 400px;
-  margin     : 10px;
-  margin-left: 440px;
+
+@media screen and (min-width: 992px) {
+  .panel.panel-dangki {
+    width      : 450px !important; 
+    height     : auto;
+    margin     : 10px;
+    margin-left: 400px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .panel.panel-dangki {
+    width      : 450px !important; 
+    height     : auto;
+    margin     : 10px;
+    margin-left: 430px;
+  }
 }
 .form-title {
   width: 150px;
@@ -19,7 +29,7 @@
   font-family: Verdana,Arial,sans-serif;
   margin-bottom: 20px;
 }
-border-bottom{
+.border-bottom{
   width: 200px;
 }
 .form-control, output {
